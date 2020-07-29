@@ -19,7 +19,7 @@ function App() {
     <AuthContext.Provider value={{ isLoggedIn, setLoggedIn }}>
     
     <Router>
-    <div style={style.container}>
+    <div >
       
       <Switch>
         <Route path="/home"><Home /></Route>

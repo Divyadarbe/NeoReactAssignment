@@ -40,10 +40,10 @@ class HomeTable extends React.Component {
           <div className="row clearfix">
             <div className="col-md-10 column">
               <table
-                className="table table-bordered table-hover"
-                id="tab_logic"
+                className="table table-bordered table-hover table-primary"
+                id="tab_logic" style={{border:'2px solid black'}}
               >
-                <thead>
+                <thead className='thead-dark '>
                   <tr>
                     <th className="text-center"> # </th>
                     <th className="text-center"> Subject Name </th>

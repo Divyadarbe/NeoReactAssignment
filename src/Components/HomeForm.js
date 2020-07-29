@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
+import Background from './Images/home1.jpeg';
 
 const HomeForm=()=>{
     const [textField1,setTextField1]=useState('');
@@ -62,7 +63,10 @@ const style={
         justifyContent:'center',
         height:500,
         width:300,
-        borderRadius:4
+        borderRadius:4,
+        backgroundImage: `url(${Background})`,
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
         
     },
   

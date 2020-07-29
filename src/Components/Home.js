@@ -48,8 +48,12 @@ const style={
     tableContainer:{
         display:'flex',
         flex:1,
+        paddingLeft:130,
+        paddingRight:10,
+        margin:20,
         alignItems:'center',
-        justifyContent:'center'
+        justifyContent:'center',
+    
     },
     formContainer:{
         display:'flex',

@@ -3,6 +3,7 @@ import { AuthContext } from '../App';
 import sectionImage from './Images/section2.jpeg';
 import { withRouter } from 'react-router-dom';
 import * as firebase from "firebase";
+import Background from './Images/home1.jpeg';
 
 const LoginForm=({history})=>{
 
@@ -67,9 +68,9 @@ const LoginForm=({history})=>{
 }
 const style={
     container:{
-        // backgroundImage: `url(${Background})`,
-        // backgroundSize: 'cover',
-        // backgroundRepeat: 'no-repeat',
+        backgroundImage: `url(${Background})`,
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
         display:'flex',
         flexDirection: 'row',
         flex:1,
